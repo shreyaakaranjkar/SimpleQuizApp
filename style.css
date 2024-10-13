@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(130deg, #432969,rgb(11, 1, 43))
+}
+.app{
+    background: #fff;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+}
+.app{
+    text-align: center;
+}
+.app h2{
+    font-weight: 25px;
+    color: #001e4d;
+    font-weight: 600;
+    border-bottom: 1px solid #333;
+    padding-bottom: 30px;
+}
+.quiz{
+    padding: 20px 0;
+}
+.quiz h2{
+    font-size: 18px;
+    color: #001e4d;
+    font-weight: 600;
+}
+.btn{
+    cursor: pointer;
+    padding: 10px;
+    margin: 10px 0;
+    background: #fff;
+    color: #222;
+    font-weight: 500;
+    border: 1px solid #222;
+    text-align: left;
+    border-radius: 4px;
+    width: 100%;
+    transition: all 0.2s;
+}
+.btn:hover:not([disabled]){
+    background: #333;
+    color: #fff;
+}
+.btn:disabled{
+    cursor: no-drop;
+}
+#nextbtn{
+    background: #001e4d;
+    color: #fff;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+    /* button center aligned  */
+}
+.Correct{
+    background: #03692a;
+    color: #f9f8f8;
+}
+.Incorrect{color: #f9f8f8;
+    background: rgb(247, 58, 33);
+    color: #f9f8f8;
+}
